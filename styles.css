@@ -1,5 +1,7 @@
 html{
     background-color: #fabaec;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
 }
 
 code{
@@ -33,9 +35,9 @@ code{
     justify-content: space-between;
     padding: 0;
     margin: 0;
-
   }
-.site-nav{
+
+.site-nav{              
     margin-top: 15px;
     flex: 1;
     background-color: #ef6d45;
@@ -43,6 +45,7 @@ code{
     border-radius: 10px 10px 0 0;
     margin-bottom: 0;
 }
+
   .current{
     color: #340404;
     padding: 14px 0;
@@ -57,3 +60,11 @@ code{
     color: #f9f9f9;
   }
 
+  .current-home{
+    background-color: #f9f9f9;
+    color: #340404;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    
+  }
